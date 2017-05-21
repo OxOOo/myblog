@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 博客
+title: 陈宇的个人博客
 subtitle: 淄博科
-description: 测试博客
-author: Chen Yu
-language: zh
-timezone: 
+description: 个人博客，放些没有营养的内容
+author: 陈宇
+language: zh-Hans
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://blog.chenyu0x00.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -69,3 +69,10 @@ theme: yelee
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
