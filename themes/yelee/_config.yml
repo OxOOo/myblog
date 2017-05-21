@@ -11,7 +11,7 @@ menu:
   所有文章: /archives/
   #随笔: /tags/随笔
   标签云: /tags/
-  关于我: /about/
+  #关于我: /about/
 
 # Link to your avatar | 填写头像地址
 avatar: /img/avatar.png
@@ -142,7 +142,7 @@ blockquote_style:
 
 # Headings Style | 标题风格
 ## 0-Yelee, 1-Yilia, 2-GitHub
-heading_style: 0 # Value: 0 - 2
+heading_style: 2 # Value: 0 - 2
 
 ## List style type (ul) | 无序列表项标记样式
 list_style: 0  # value: 0 - 12 可选
@@ -156,7 +156,7 @@ copyright: true
 # Table of contents | 文章目录
 toc:
   on: true
-  list_number: true # 目录序号
+  list_number: false # 目录序号
   max_depth: 3  # 1 - 6 (h1-h6) 目录最大级数
   nowrap: false # Keep title on same line | 目录标题不换行
 
@@ -182,12 +182,10 @@ tagcloud: true
 # Blogroll, Link exchange | 友情链接
 friends:
   Hexo: https://hexo.io
-  GitHub: https://pages.github.com/
-  MOxFIVE: http://moxfive.xyz/
 #friends: false
 
 #是否开启“关于我”。
-aboutme: 专注于前端
+aboutme: 码农一枚
 #aboutme: false
 
 # Open link in a new tab | 是否在新窗口打开链接
