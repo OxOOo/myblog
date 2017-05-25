@@ -182,6 +182,7 @@ tagcloud: true
 # Blogroll, Link exchange | 友情链接
 friends:
   Hexo: https://hexo.io
+  Blink: https://blog.blink.moe/
 #friends: false
 
 #是否开启“关于我”。
