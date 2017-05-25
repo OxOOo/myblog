@@ -61,7 +61,9 @@ router.post('/comments/submit_comment', async (ctx, next) => {
     comment.page_id = ctx.state.page._id;
     comment.content = comment_content;
     comment.nickname = comment_nickname;
-    comment.reply_comment_id = reply_comment_id;
+    if (reply_comment_id) {
+        comment.reply_comment_id = reply_comment_id;
+    }
     await comment.save();
     ctx.body = 'OK';
 });
